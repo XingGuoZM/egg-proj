@@ -1,33 +1,8 @@
-# proj
+## proj
+首先要请求登录接口，拿到token，然后在后面需要的地方header上要加上token,以此来达到鉴权目的。
 
+## 本地调试
+npm run dev
 
-
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org# egg-proj
+## 线上启动
+npm run start
